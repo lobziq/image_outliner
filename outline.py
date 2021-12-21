@@ -44,8 +44,3 @@ def change_matrix(input_mat, stroke_size):
 def cv2pil(cv_img):
     pil_img = Image.fromarray(cv_img.astype("uint8"))
     return pil_img
-
-
-# with Image.open('autism.png') as img:
-#     output = stroke(img, threshold=0, stroke_size=10, colors=((255, 255, 255),))
-#     output.save('output.png')
